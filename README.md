@@ -4,7 +4,7 @@ Boto3 doesn't support AWS S3 Sync commands therefore we can use this script to m
 
 ### Dependencies
 - Make sure the AWS CLI is installed on the system.
-- Use constants.py to supply AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, and AWS_DEFAULT_REGION.
+- Use constants.py to supply `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_DEFAULT_REGION`.
 
 ### Running the script
 
@@ -12,7 +12,7 @@ Boto3 doesn't support AWS S3 Sync commands therefore we can use this script to m
 `python main.py -h`
 
 - Sync the two directories:
-`python main.py <source_directory> <destination_directory>
+`python main.py <source_directory> <destination_directory>`
 
 ### Motivation
 - The script can be used to create API using Flask etc.
