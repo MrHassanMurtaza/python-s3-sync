@@ -8,7 +8,7 @@ parser.add_argument('source_directory', help = 'Path you want to sync from.', ty
 parser.add_argument('destination_directory', help = 'Path you want to sync to.', type=str)
 
 def do_sync():
-    """ sync s3 bucket to local """
+    """ sync s3 bucket """
     try:
         # parsing args
         args = parser.parse_args()
